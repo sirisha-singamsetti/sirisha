@@ -1,0 +1,13 @@
+rollno=int(input())
+name=input()
+class=input()
+s1=float(input("enter marks of s1"))
+s2=float(input("enter marks of s2"))
+s3=float(input("enter marks of s3"))
+s4=float(input("enter marks of s4"))
+s5=float(input("enter marks of s5"))
+s6=float(input("enter marks of s6"))
+if (s1>=35,s2>=35,s3>=35,s4>=35,s5>=35,s6>=35):
+  print("pass")
+else:
+  print("fail")
