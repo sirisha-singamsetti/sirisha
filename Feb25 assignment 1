@@ -1,0 +1,12 @@
+n=int(input("no of elements in list"))
+l=[]
+for i in range(n):
+    a=int(input())
+    l.append(a)
+p=[]
+
+for i in l:
+    if i!=0:
+        p.append(i)
+    
+print(p)
