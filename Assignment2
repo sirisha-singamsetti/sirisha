@@ -1,0 +1,16 @@
+n = int(input( )) 
+
+list1 = []
+
+for i in range(n):
+    items = int(input("value for product " + str(i + 1) + " : "))
+    list1.append(items)
+
+dup = {}
+
+for a in list1:
+    if list1.count(a) > 1:
+        dup[a] = dup.get(a, 0)+1
+
+print("Count of duplicate elements in the list: ", len(dup))
+print(dup)
